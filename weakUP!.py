@@ -2,12 +2,12 @@ print('Você acorda em uma casa escura.\n A chuva castiga a velha madeira do cas
 print('Sua perna dói. Você olha para ela?')
 choice = input('[S/N] > ')
 
-if(choice == 'S' , 's'):
+if choice in ['S', 's']:
     print('Você olha para sua perna. Na verdade, você olha para sua carne dilacerada. O sangue te faz ter vertigem.')   
-elif(choice == 'N' , 'n'):
+elif choice in ['N', 'n']:
     print('Você decide não olhar para sua perna.')
 else:
-        print('Inválido. Você olha para sua perna?')
+        print('Opção invalida. Escolha entre [S] e [N]')
 
 print('Você não se lembra do que aconteceu.')
 
